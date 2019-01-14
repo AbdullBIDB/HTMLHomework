@@ -1,0 +1,53 @@
+body 
+{
+    background-color:#4E5D6C 
+}
+
+.lat {
+
+    font-size: 50px;
+  
+
+}
+
+.text {
+    float: right;
+}
+
+
+.abdullbg
+{
+    background-color: black
+}
+
+h3
+{
+    
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2
+{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 80px;
+  }
+p
+{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+.dropd
+{
+    background-color: #4E5D6C
+}
+
+.fcolor
+{
+    color: azure
+}

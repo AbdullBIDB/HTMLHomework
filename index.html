@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>WeatherPy's Project Website</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: rgb(191, 202, 212) ">
+    
+        <nav class="navbar navbar-default" style="background-color: rgb(53, 73, 95) ">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand lat" href="index.html"> 
+                    <span style="color:azure" class="nav-color">Latitude</span></a>
+                </div>
+    
+                <div  style="color:azure" class="nav navbar-nav navbar-right">
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" style="color:azure" >Plots<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="temp.html">Max Temperature</a></li>
+                            <li><a href="Humidity.html">Humidity</a></li>
+                            <li><a href="Cloudiness.html">Cloudiness</a></li>
+                            <li><a href="windSpeed.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Comparison.html" style="color:azure"> Comparison</a></li>
+                    <li><a href="Data.html" style="color:azure"  > Data</a></li>                                           
+                </div>
+            </div>      
+        </nav>
+
+
+
+<!--------------------------------------------------------------------->
+
+        <div class = "container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                
+        
+                            <h2>Summary: Latitude vs X</h2>
+                            <hr>
+                            <img  src="assets\images\temperaturemap.png" class="pull-right img-responsive" alt="Responsive image">
+                            <p class = "text">This website is tend to visualize the result from the WeatherPy homework. You can get insight on what the relationship between Latitude VS Max Temp, Couldiness, Humidity, and Wind Speed.</p>
+                            <br> 
+                                     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-default">
+                                <div class="panel-body"> 
+                                                                      
+                                    <h2>Visualizations</h2>
+                                    <hr>
+        
+                                    <div class="row" >
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="temp.html"><img class = "img img-responsive" src="assets\images\temperaturemap.png" style="width:100%" ></a></div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="Humidity.html"><img class = "img img-responsive" src="assets\images\humiditymap.png" style="width:100%"></a></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="Cloudiness.html"><img class = "img img-responsive" src="assets\images\cloudymap.png" style="width:100%" ></a></div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="windSpeed.html"><img class = "img img-responsive" src="assets\images\windmap.png" style="width:100%"></a></div>
+                                    </div>
+                                      
+                                </div>
+                        </div>     
+                    </div>    
+            </div>
+
+
+
+
+
+    
+
+</body>
+</html>
